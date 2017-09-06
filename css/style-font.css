@@ -1,0 +1,30 @@
+@font-face{font-family:"HelveticaNeueLTW20";font-weight:100;
+src:url("../font/HelveticaNeueLTW20.eot?iefix");
+src:url("../font/HelveticaNeueLTW20.woff") format("woff"),
+url("../font/HelveticaNeueLTW20.ttf") format("truetype"),
+url("../font/HelveticaNeueLTW20.svg#HelveticaNeueLTW20") format("svg")}
+
+.s1 {
+    font-size: 9px;
+}
+.s2 {
+    font-size: 11px;
+}
+.s3 {
+     font-size: 13px;
+}
+.s4 {
+    font-size: 15px;
+}
+.s5 {
+    font-size: 18px;
+}
+.s6 {
+     font-size: 22px;
+}
+.s7 {
+    font-size: 26px;
+}
+.s8 {
+     font-size: 32px;
+}
