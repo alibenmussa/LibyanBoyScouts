@@ -17,7 +17,6 @@ $(document).ready(function(){
             $('.dropdown button i').removeClass('fa-bars').addClass('fa-times');
             $('.dropdown ul').animate({left: "0px"}, 320);
             $('.dropdown .click').animate({left: "150px"}, 320);
-            $('.dropdown .click').css({position: "fixed", top: "70px"});
         });
     }, function() {
         
@@ -25,7 +24,6 @@ $(document).ready(function(){
         $('.dropdown ul').animate({left: "-150px"}, 320, function() {
             $('.dropdown button i').removeClass('fa-times').addClass('fa-bars');
             $('.dropdown ul').animate({left: "-215px"}, 200);
-            $('.dropdown .click').css({position: "relative", top: "40px"});
         });
     });
     $('.footer-2 button').on("click",function() {
