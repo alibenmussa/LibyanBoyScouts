@@ -68,9 +68,12 @@ button.outline-white:hover {
     color: #666666;
 }
 .data {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     position: relative;
+}
+.navbar .data {
+	width: 90%;
 }
 .topline {
     background: #6342a7;
@@ -528,6 +531,9 @@ button.outline-white:hover {
     #last-news, #first-event, #our-goals, #second-event {
         padding: 100px 140px;
     }
+	#second-event {
+		padding: 150px 0 0;
+	}
 }
 @media (max-width:991px) {
     .navbar {
@@ -615,6 +621,9 @@ button.outline-white:hover {
     #first-event {
         padding-right: 20px;
     }
+	#our-goals .goal {
+		margin: 10px 5px;
+	}
     #talks .slide {
         display: block;
     }
